@@ -21,6 +21,8 @@
 8. [Testing & Validation](#8-testing--validation)
 9. [Challenges & Solutions](#9-challenges--solutions)
 10. [Conclusion](#10-conclusion)
+11. [Internship Submission Checklist](#11-internship-submission-checklist)
+12. [Deliverables](#12-deliverables)
 
 ---
 
@@ -301,6 +303,46 @@ Glass Flask successfully delivers a polished, fully functional flashcard study a
 - Dark mode provides a comfortable low-light study environment with a persisted preference
 
 The codebase is modular and follows Flutter best practices — stateless widgets where possible, provider-driven reactivity, and a single source of truth for theme data — making it straightforward to extend with features such as spaced repetition scoring, card categories, or cloud sync in future iterations.
+
+---
+
+## 11. Internship Submission Checklist
+
+This section maps the delivered implementation directly to the internship task statement.
+
+| Required Item (Task 1) | Evidence in Project | Status |
+|---|---|---|
+| Flashcard has question front and answer back with Show Answer | Quiz flow in `quiz_screen.dart` + `flashcard_widget.dart` flip behavior | ✅ Completed |
+| Next and Previous navigation | Navigation controls and boundary checks in `FlashcardProvider` and quiz UI | ✅ Completed |
+| Add, edit, and delete flashcards | Manage screen list actions + add/edit form + delete confirmation | ✅ Completed |
+| Simple and clean user interface | Glassmorphic layout with clear hierarchy, readable typography, responsive spacing | ✅ Completed |
+
+Additional value added beyond requirement:
+
+- 3D flip-card micro-interaction
+- Donut progress ring
+- Dark/light theme with persisted preference
+- Custom app icon and launcher branding (Glass Flask)
+
+---
+
+## 12. Deliverables
+
+The following deliverables are included in the submission repository:
+
+- Source code (Flutter project)
+- Updated README with task coverage and run instructions
+- Full project report (`REPORT.md`)
+- App screenshots in `Screenshot/`
+- Custom app icon assets in `assets/icon/`
+- Splash logo asset in `assets/splash/`
+
+Recommended submission bundle for internship portal:
+
+1. GitHub repository URL
+2. README
+3. REPORT
+4. Optional APK release build
 
 ---
 
